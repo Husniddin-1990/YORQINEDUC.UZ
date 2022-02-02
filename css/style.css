@@ -1,0 +1,151 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #35424a;
+    border-bottom: 3px solid red;
+}
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0; 
+    display: inline-block;
+}
+#header .logo {
+    color: chartreuse;
+}
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline; 
+}
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+    
+}
+.navbar li a:hover {
+    color: chartreuse;
+    
+}
+.container {
+    width: 80%;
+    margin: auto;  
+}
+#banner {
+    height: 80vh;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center 500;
+    color: #fff;
+    font-family: sans-serif;
+    border-bottom: 3px solid red;
+    }
+#banner h1 {
+    text-align: right;
+    margin-bottom: 50px;
+    padding-top: 50px; 
+}
+#banner p {
+    font-size: 25px;
+    text-align: right;
+    padding-top: 30px; 
+}
+
+#newsletter {
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%
+}
+#newsletter .left {
+    float: left;
+    
+}
+#newsletter .right {
+    float: right;
+}
+#newsletter input {
+    padding: 5px;
+    
+}
+.button {
+    padding: 7px;
+    border: none;
+    background-color: chartreuse;
+    color: #fff;
+    margin-left: 15px;     
+}
+
+#courses {
+    padding: 30px 0;
+}
+.box {
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+.box img {
+    height: 100%;
+    max-width: 100%;
+    width: 350px;
+    margin: 50px;
+}
+
+
+
+.clr {
+    clear: both;
+}
+
+#footer {
+    padding: 50px 0;
+    text-align: center;
+    background-color:#35424a;
+    color: #fff;
+    margin-top: 30px
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+    
+}
+.sidebar {
+    width: 30%;
+    float: right
+}
+#about-us {
+    margin: 40px 0;
+    font-family: sans-serif;
+}
+.bg-dark {
+    background-color: #35424a;
+    color: #fff;
+    padding: 15px;
+}
+.service-box { 
+    padding: 30px;
+    margin: 15px;
+    background-color: dimgray;
+    border: 1px solid #555; 
+}
+label {
+    display: block;
+    margin-bottom: 5px; 
+}
+.from-input, textarea {
+    width: 100%;
+    margin: 10px 0;
+}
+.active {
+    color: chartreuse !important;
+    
+}
